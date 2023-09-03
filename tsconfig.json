@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
-    "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
-    "target": "ES2021",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    "module": "ES2022",                                /* Specify what module code is generated. */
-    "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
-    "types": ["bun-types"],                                      /* Specify type package names to be included without being referenced in a source file. */
-    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
-    "strict": true,                                      /* Enable all strict type-checking options. */
-    "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
-    "noFallthroughCasesInSwitch": true,               /* Enable error reporting for fallthrough cases in switch statements. */
-    "noUncheckedIndexedAccess": true,                 /* Add 'undefined' to a type when accessed using an index. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "incremental": true,
+    "composite": true,
+    "target": "ES2021",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "types": ["bun-types"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true
   }
 }
