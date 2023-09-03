@@ -37,9 +37,8 @@ export const refresh = new Elysia()
           message: "Unauthorized.",
         };
       }
-
       const hashedToken = new Bun.CryptoHasher("sha512")
-        .update(refreshToken)
+        .update(refreshToken!)
         .digest("hex");
       if (hashedToken !== existingToken.hashedToken) {
         set.status = 401;
