@@ -9,4 +9,8 @@ Inspirations from [this blog post by Mihai-Adrian Andrei](https://dev.to/mihaian
   - Clone this repository.
   - Run `bun i` to install the necessary packages.
   - Run `bunx prisma generate` to initialize the sqlite database from the prisma [schema file](prisma/schema.prisma).
+  - Set environment variables
+    - `DATABASE_URL` (since I used sqlite this was set to `file:./dev.db`)
+    - `JWT_ACCESS_SECRET`
+    - `JWT_REFRESH_SECRET`
   - Run `bun run dev` to start the application.
