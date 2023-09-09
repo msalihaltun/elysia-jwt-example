@@ -1,8 +1,8 @@
 import { Elysia } from "elysia";
-import { api } from "./api/plugin";
+import { auth } from "./auth/plugin";
 
 const app = new Elysia()
-  .use(api)
+  .use(auth)
   .listen(8080);
 
 console.log(

@@ -1,6 +1,6 @@
 import { Elysia } from "elysia";
 import { basicAuthModel, jwtAccessSetup, jwtRefreshSetup } from "./setup";
-import { prisma } from "../../../prisma/prisma";
+import { prisma } from "../prisma/prisma";
 import { randomUUID } from "crypto";
 
 export const login = new Elysia()
