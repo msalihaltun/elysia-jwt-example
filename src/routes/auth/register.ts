@@ -1,5 +1,5 @@
 import { Elysia, t } from "elysia";
-import { prisma } from "../prisma/prisma";
+import { prisma } from "../../prisma/prisma";
 import cookie from "@elysiajs/cookie";
 import { randomUUID } from "crypto";
 import { basicAuthModel, jwtAccessSetup, jwtRefreshSetup } from "./setup";

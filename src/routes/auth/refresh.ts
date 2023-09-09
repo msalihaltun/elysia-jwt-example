@@ -1,7 +1,7 @@
 import cookie from "@elysiajs/cookie";
 import { Elysia } from "elysia";
 import { jwtAccessSetup, jwtRefreshSetup } from "./setup";
-import { prisma } from "../prisma/prisma";
+import { prisma } from "../../prisma/prisma";
 import { randomUUID } from "crypto";
 
 export const refresh = new Elysia()

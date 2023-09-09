@@ -1,5 +1,5 @@
 import { Elysia } from "elysia";
-import { auth } from "./auth/plugin";
+import { auth } from "./routes/auth/plugin";
 
 const app = new Elysia()
   .use(auth)
